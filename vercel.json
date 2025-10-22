@@ -6,30 +6,30 @@
       "use": "@vercel/static"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/",
-      "dest": "/index.html"
+      "source": "/",
+      "destination": "/index.html"
     },
     {
-      "src": "/home",
-      "dest": "/home.html"
+      "source": "/home",
+      "destination": "/home.html"
     },
     {
-      "src": "/tentang-kami",
-      "dest": "/tentang-kami.html"
+      "source": "/tentang-kami",
+      "destination": "/tentang-kami.html"
     },
     {
-      "src": "/layanan",
-      "dest": "/layanan.html"
+      "source": "/layanan",
+      "destination": "/layanan.html"
     },
     {
-      "src": "/fasilitas",
-      "dest": "/fasilitas.html"
+      "source": "/fasilitas",
+      "destination": "/fasilitas.html"
     },
     {
-      "src": "/kontak",
-      "dest": "/kontak.html"
+      "source": "/kontak",
+      "destination": "/kontak.html"
     }
   ],
   "headers": [
