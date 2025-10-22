@@ -1,0 +1,26 @@
+{
+  "name": "hemodiacare-website",
+  "version": "1.0.0",
+  "description": "Website resmi Instalasi Rawat Jalan HEMODIACARE RSUD Umar Wirahadikusumah",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'Static site - no build required'",
+    "dev": "npx serve . -l 3000"
+  },
+  "keywords": [
+    "hemodialisa",
+    "rumah sakit",
+    "medis",
+    "perawatan ginjal",
+    "RSUD Umar Wirahadikusumah"
+  ],
+  "author": "RSUD Umar Wirahadikusumah",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

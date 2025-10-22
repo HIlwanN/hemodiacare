@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "**/*.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/home",
+      "dest": "/home.html"
+    },
+    {
+      "src": "/tentang-kami",
+      "dest": "/tentang-kami.html"
+    },
+    {
+      "src": "/layanan",
+      "dest": "/layanan.html"
+    },
+    {
+      "src": "/fasilitas",
+      "dest": "/fasilitas.html"
+    },
+    {
+      "src": "/kontak",
+      "dest": "/kontak.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}
