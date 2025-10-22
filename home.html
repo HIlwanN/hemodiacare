@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RS Hemodialisa Prima - Pusat layanan cuci darah terpercaya dengan teknologi modern dan tim medis berpengalaman">
+    <meta name="keywords" content="hemodialisa, cuci darah, rumah sakit ginjal, dialisis, nefrologi">
+    <title>HEMODIACARE Pusat Layanan Cuci Darah Terpercaya</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="font-sans">
+    <!-- Navigation -->
+    <nav id="navbar" class="fixed w-full z-50 bg-navbar shadow-lg navbar-scroll">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center space-x-4">
+                        <!-- Logo RSUD UMAR WIRAHADIKUSUMAH -->
+                        <div class="flex items-center">
+                            <img src="assets/LOGO_RSUD UMAR WIRAHADIKUSUMAH.png" alt="RSUD Umar Wirahadikusumah" class="navbar-logo">
+                        </div>
+                        
+                        <!-- Logo HEMODIACARE -->
+                        <div class="flex items-center">
+                            <img src="assets/LOGI_HEMODIACARE (R.HEMODIALISA).png" alt="HEMODIACARE" class="navbar-logo-small">
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="home.html" class="text-accent px-3 py-2 text-sm font-medium transition-colors">Beranda</a>
+                        <a href="tentang-kami.html" class="text-secondary hover:text-accent px-3 py-2 text-sm font-medium transition-colors">Tentang Kami</a>
+                        <a href="layanan.html" class="text-secondary hover:text-accent px-3 py-2 text-sm font-medium transition-colors">Layanan</a>
+                        <a href="fasilitas.html" class="text-secondary hover:text-accent px-3 py-2 text-sm font-medium transition-colors">Fasilitas</a>
+                        <a href="kontak.html" class="text-secondary hover:text-accent px-3 py-2 text-sm font-medium transition-colors">Kontak</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-secondary hover:text-accent">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-card border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="home.html" class="block px-3 py-2 text-accent">Beranda</a>
+                <a href="tentang-kami.html" class="block px-3 py-2 text-secondary hover:text-accent">Tentang Kami</a>
+                <a href="layanan.html" class="block px-3 py-2 text-secondary hover:text-accent">Layanan</a>
+                <a href="fasilitas.html" class="block px-3 py-2 text-secondary hover:text-accent">Fasilitas</a>
+                <a href="kontak.html" class="block px-3 py-2 text-secondary hover:text-accent">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-section min-h-screen flex items-center pt-16 relative overflow-hidden">
+        <!-- Floating Assets with Animation -->
+        <div class="absolute top-20 right-20 animate-float-delayed">
+            <img src="assets/hero-angle.png" alt="Hero angle decoration" class="w-28 h-28 md:w-36 md:h-36 lg:w-44 lg:h-44 opacity-70">
+        </div>
+        
+        <div class="absolute top-1/2 left-10 transform -translate-y-1/2 animate-float-service">
+            <img src="assets/service-angle.png" alt="Service angle decoration" class="w-28 h-28 md:w-36 md:h-36 lg:w-44 lg:h-44 opacity-50">
+        </div>
+        
+        <div class="absolute bottom-20 left-10 animate-float-slow">
+            <img src="assets/ellipse.png" alt="Ellipse decoration" class="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 opacity-60">
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
+            <div class="text-center">
+                <div class="text-primary">
+                    <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+                   
+                        <span class="text-accent">HEMODIACARE</span>
+                    </h1>
+                    <p class="text-xl md:text-2xl mb-8 text-secondary leading-relaxed max-w-4xl mx-auto">
+                        Memberikan perawatan cuci darah berkualitas tinggi dengan teknologi modern dan tim medis berpengalaman.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="kontak.html" class="btn-pink text-center">
+                            Konsultasi Sekarang
+                        </a>
+                        <a href="layanan.html" class="btn-outline-pink text-center">
+                            Lihat Layanan
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Info Section -->
+    <section class="py-16 bg-section">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-blue-600 mb-2 counter" data-target="15" data-suffix="+">0+</div>
+                    <div class="text-secondary">Tahun Pengalaman</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-blue-600 mb-2 counter" data-target="5000" data-suffix="+">0+</div>
+                    <div class="text-secondary">Pasien Terlayani</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-blue-600 mb-2 counter" data-target="24">0</div>
+                    <div class="text-secondary">Mesin HD Modern</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-blue-600 mb-2 counter" data-target="98" data-suffix="%">0%</div>
+                    <div class="text-secondary">Tingkat Kepuasan</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview Section -->
+    <section class="py-20 bg-section">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-primary mb-4">Mengapa Memilih Kami?</h2>
+                <p class="text-xl text-secondary max-w-3xl mx-auto">
+                    Komitmen kami adalah memberikan perawatan terbaik dengan standar internasional
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-card rounded-xl shadow-lg p-8 text-center card-hover">
+                    <div class="w-16 h-16 medical-gradient rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-award text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-4">Teknologi Terdepan</h3>
+                    <p class="text-secondary">
+                        Menggunakan mesin hemodialisa terbaru Fresenius 5008S dengan sistem monitoring canggih
+                    </p>
+                </div>
+                
+                <div class="bg-card rounded-xl shadow-lg p-8 text-center card-hover">
+                    <div class="w-16 h-16 medical-gradient rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-users text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-4">Tim Medis Ahli</h3>
+                    <p class="text-secondary">
+                        Dokter spesialis ginjal dan perawat terlatih dengan sertifikasi internasional
+                    </p>
+                </div>
+                
+                <div class="bg-card rounded-xl shadow-lg p-8 text-center card-hover">
+                    <div class="w-16 h-16 medical-gradient rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-shield-alt text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-4">Standar Internasional</h3>
+                    <p class="text-secondary">
+                        Fasilitas tersertifikasi ISO 9001 dan terakreditasi KARS untuk keamanan maksimal
+                    </p>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="tentang-kami.html" class="btn-pink">
+                    Pelajari Lebih Lanjut
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview Section -->
+    <section class="py-20 bg-section">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-primary mb-4">Layanan Unggulan Kami</h2>
+                <p class="text-xl text-secondary max-w-3xl mx-auto">
+                    Layanan komprehensif untuk perawatan ginjal dengan standar medis internasional
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-card rounded-xl shadow-lg p-8 card-hover border border-gray-100">
+                    <div class="w-16 h-16 medical-gradient rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-tint text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-4">Hemodialisa Rutin</h3>
+                    <p class="text-secondary mb-6">
+                        Layanan cuci darah rutin dengan jadwal fleksibel menggunakan mesin hemodialisa terbaru
+                    </p>
+                    <ul class="space-y-2 text-sm text-secondary">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Sesi 4-5 jam</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Monitoring ketat</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Perawat berpengalaman</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-card rounded-xl shadow-lg p-8 card-hover border border-gray-100">
+                    <div class="w-16 h-16 medical-gradient rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-ambulance text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-4">Hemodialisa Darurat</h3>
+                    <p class="text-secondary mb-6">
+                        Layanan hemodialisa darurat 24/7 untuk kondisi gawat darurat dengan tim medis siaga
+                    </p>
+                    <ul class="space-y-2 text-sm text-secondary">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Tersedia 24/7</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Tim darurat siaga</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Respon cepat</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-card rounded-xl shadow-lg p-8 card-hover border border-gray-100">
+                    <div class="w-16 h-16 medical-gradient rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-user-md text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-4">Konsultasi Nefrologi</h3>
+                    <p class="text-secondary mb-6">
+                        Konsultasi dengan dokter spesialis ginjal untuk evaluasi kondisi dan perencanaan terapi
+                    </p>
+                    <ul class="space-y-2 text-sm text-secondary">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Dokter spesialis</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Evaluasi menyeluruh</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Rencana terapi</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="layanan.html" class="btn-pink">
+                    Lihat Semua Layanan
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="py-20 bg-section">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-primary mb-4">Fasilitas Modern</h2>
+                <p class="text-xl text-secondary max-w-3xl mx-auto">
+                    Fasilitas lengkap dan modern untuk mendukung perawatan hemodialisa yang optimal
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-20 h-20 medical-gradient rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-procedures text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-primary mb-2">24 Unit HD</h3>
+                    <p class="text-secondary">Mesin hemodialisa modern dengan teknologi terdepan</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 medical-gradient rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-primary mb-2">Sterilisasi Lengkap</h3>
+                    <p class="text-secondary">Sistem sterilisasi modern untuk keamanan maksimal</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 medical-gradient rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-wifi text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-primary mb-2">WiFi Gratis</h3>
+                    <p class="text-secondary">Akses internet gratis untuk kenyamanan pasien</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 medical-gradient rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-car text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-primary mb-2">Parkir Luas</h3>
+                    <p class="text-secondary">Area parkir yang luas dan aman untuk kendaraan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-section">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold text-primary mb-6">Siap Untuk Konsultasi?</h2>
+            <p class="text-xl text-secondary mb-8 max-w-2xl mx-auto">
+                Tim medis kami siap membantu Anda 24/7. Hubungi kami sekarang untuk informasi lebih lanjut atau jadwalkan konsultasi.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="kontak.html" class="btn-pink">
+                    Hubungi Kami
+                </a>
+                <a href="tel:021-555-0123" class="btn-outline-pink">
+                    <i class="fas fa-phone mr-2"></i>
+                    (021) 555-0123
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center mb-4 space-x-4">
+                        <!-- Logo RSUD UMAR WIRAHADIKUSUMAH -->
+                        <div class="flex items-center">
+                            <img src="assets/LOGO_RSUD UMAR WIRAHADIKUSUMAH.png" alt="RSUD Umar Wirahadikusumah" class="h-16 w-auto">
+                        </div>
+                        
+                        <!-- Logo HEMODIACARE -->
+                        <div class="flex items-center">
+                            <img src="assets/LOGI_HEMODIACARE (R.HEMODIALISA).png" alt="HEMODIACARE" class="h-16 w-auto">
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-4 max-w-md">
+                        Hemodialisa terpercaya dengan pengalaman lebih dari 15 tahun dalam memberikan perawatan ginjal berkualitas tinggi.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-blue-400 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-pink-600 rounded-full flex items-center justify-center hover:bg-pink-700 transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center hover:bg-green-700 transition-colors">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Menu</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="home.html" class="hover:text-white transition-colors">Beranda</a></li>
+                        <li><a href="tentang-kami.html" class="hover:text-white transition-colors">Tentang Kami</a></li>
+                        <li><a href="layanan.html" class="hover:text-white transition-colors">Layanan</a></li>
+                        <li><a href="fasilitas.html" class="hover:text-white transition-colors">Fasilitas</a></li>
+                        <li><a href="kontak.html" class="hover:text-white transition-colors">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-center">Informasi dan Prosedur</h3>
+                    <div class="text-center">
+                        <img src="assets/BARCODE _SISEKSI_ RSUD UMAR WIRAHADIKUSUMAH.png" alt="Barcode Siseksi RSUD Umar Wirahadikusumah" class="mx-auto mb-2" style="max-width: 180px; height: auto;">
+                        <p class="text-gray-300 text-sm">Scan untuk informasi dan prosedur</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
+                <p>&copy; 2025 RSUD Umar Wirahadikusumah.</p>
+                <p>Hak cipta dilindungi undang-undang.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="hidden fixed bottom-8 right-8 w-12 h-12 medical-gradient rounded-full flex items-center justify-center text-white shadow-lg hover:opacity-90 transition-opacity z-40">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
