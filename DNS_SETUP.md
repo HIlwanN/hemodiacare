@@ -121,4 +121,7 @@ Setelah setup selesai:
 - ✅ Fast loading dengan CDN
 - ✅ SEO friendly URL
 - ✅ Branding yang lebih kuat
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1db07b8abb1a3b261bfbfcf8457a487eda38e22c

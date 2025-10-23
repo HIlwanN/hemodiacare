@@ -51,4 +51,7 @@ echo "   Type: CNAME, Name: www, Value: $GITHUB_USERNAME.github.io"
 echo ""
 echo "⏰ Wait 24-48 hours for DNS propagation"
 echo "🌍 Your website will be available at: https://$DOMAIN_NAME"
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1db07b8abb1a3b261bfbfcf8457a487eda38e22c
