@@ -1,0 +1,27 @@
+{
+    "name": "HEMODIACARE - Instalasi Rawat Jalan Hemodialisa",
+    "short_name": "HEMODIACARE",
+    "description": "Layanan cuci darah berkualitas tinggi dengan teknologi modern dan tim medis berpengalaman di RSUD Umar Wirahadikusumah",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fdf2f8",
+    "theme_color": "#be185d",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "assets/LOGI_HEMODIACARE (R.HEMODIALISA).png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "assets/LOGI_HEMODIACARE (R.HEMODIALISA).png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": ["medical", "health", "hospital"],
+    "lang": "id",
+    "dir": "ltr"
+}
