@@ -9,13 +9,13 @@
     "orientation": "portrait-primary",
     "icons": [
         {
-            "src": "assets/LOGI_HEMODIACARE (R.HEMODIALISA).png",
+            "src": "assets/Logo_Ruang_HD_-removebg-preview (1).png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "assets/LOGI_HEMODIACARE (R.HEMODIALISA).png",
+            "src": "assets/Logo_Ruang_HD_-removebg-preview (1).png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any maskable"
