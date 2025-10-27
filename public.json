@@ -1,0 +1,44 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/home",
+      "destination": "/home.html"
+    },
+    {
+      "source": "/tentang-kami",
+      "destination": "/tentang-kami.html"
+    },
+    {
+      "source": "/layanan",
+      "destination": "/layanan.html"
+    },
+    {
+      "source": "/fasilitas",
+      "destination": "/fasilitas.html"
+    },
+    {
+      "source": "/kontak",
+      "destination": "/kontak.html"
+    }
+  ],
+  "headers": {
+    "/assets/**": {
+      "Cache-Control": "public, max-age=31536000, immutable"
+    },
+    "/assets/favicon.ico": {
+      "Content-Type": "image/x-icon",
+      "Cache-Control": "public, max-age=31536000, immutable"
+    },
+    "/css/**": {
+      "Cache-Control": "public, max-age=31536000, immutable"
+    },
+    "/js/**": {
+      "Cache-Control": "public, max-age=31536000, immutable"
+    }
+  }
+}
+

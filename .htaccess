@@ -9,6 +9,12 @@
     AddOutputFilterByType DEFLATE application/rss+xml
     AddOutputFilterByType DEFLATE application/javascript
     AddOutputFilterByType DEFLATE application/x-javascript
+    AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# Favicon Configuration
+<IfModule mod_mime.c>
+    AddType image/x-icon .ico
 </IfModule>
 
 # Set Cache Headers
@@ -25,6 +31,7 @@
     ExpiresByType application/x-javascript "access plus 1 month"
     ExpiresByType application/x-shockwave-flash "access plus 1 month"
     ExpiresByType image/x-icon "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 month"
     ExpiresDefault "access plus 2 days"
 </IfModule>
 
