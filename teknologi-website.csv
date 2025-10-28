@@ -1,0 +1,28 @@
+Teknologi,Deskripsi,Kategori,Fungsi
+HTML5,HyperText Markup Language versi 5 - bahasa markup standar untuk membuat struktur halaman web,Frontend,Struktur halaman web dan konten
+CSS3,Cascading Style Sheets versi 3 - bahasa stylesheet untuk mengatur tampilan dan layout halaman web,Frontend,Styling dan layout visual
+Tailwind CSS,Framework CSS utility-first yang menyediakan class-class siap pakai untuk styling cepat dan responsif,Frontend,Styling framework dan responsive design
+JavaScript, Bahasa pemrograman yang berjalan di browser untuk membuat interaktivitas dan animasi pada halaman web,Frontend,Interaktivitas dan animasi
+Font Awesome,Library ikon yang menyediakan ribuan ikon vektor untuk digunakan dalam desain web,Frontend,Ikon dan simbol visual
+Progressive Web App (PWA),Teknologi web yang memungkinkan website berfungsi seperti aplikasi native dengan fitur offline dan installable,Frontend,Enhanced user experience
+JSON-LD,Format structured data yang membantu mesin pencari memahami konten website untuk rich snippets,SEO,Search engine optimization
+Open Graph Protocol,Protokol metadata untuk mengoptimalkan tampilan link website saat dibagikan di media sosial,SEO,Social media optimization
+Twitter Cards,Format metadata khusus untuk mengoptimalkan tampilan link di Twitter,SEO,Social media optimization
+Favicon,File ikon kecil yang ditampilkan di tab browser dan hasil pencarian Google,SEO,Branding dan identitas visual
+Sitemap XML,File XML yang berisi daftar semua halaman website untuk membantu mesin pencari mengindeks situs,SEO,Search engine indexing
+Robots.txt,File teks yang memberikan instruksi kepada web crawler tentang halaman mana yang boleh diakses,SEO,Search engine crawling control
+Railway,Platform cloud hosting untuk deployment dan hosting website statis dengan auto-deployment dari GitHub,Backend,Web hosting dan deployment
+GitHub,Platform version control dan repository hosting untuk menyimpan dan mengelola kode website,Backend,Version control dan collaboration
+Git,Version control system untuk melacak perubahan kode dan berkolaborasi dalam pengembangan,Backend,Version control
+Apache HTTP Server,Web server yang menangani permintaan HTTP dan menyajikan file website kepada pengguna,Backend,Web server (via .htaccess)
+GZIP Compression,Teknologi kompresi untuk mengurangi ukuran file yang dikirim dari server ke browser,Performance,Optimasi loading speed
+Browser Caching,Teknologi penyimpanan sementara file di browser untuk mengurangi loading time pada kunjungan berikutnya,Performance,Cache optimization
+Responsive Design,Desain website yang dapat menyesuaikan tampilan dengan berbagai ukuran layar (desktop, tablet, mobile),UX,Cross-device compatibility
+Mobile-First Design,Pendekatan desain yang mengutamakan pengalaman pengguna di perangkat mobile,UX,Mobile optimization
+Accessibility (a11y),Praktik desain yang memastikan website dapat diakses oleh pengguna dengan disabilitas,UX,Inclusive design
+Meta Tags,Tag HTML yang memberikan informasi metadata tentang halaman web untuk mesin pencari dan browser,SEO,Page metadata
+Structured Data,Data terstruktur yang membantu mesin pencari memahami konten website untuk menampilkan rich results,SEO,Enhanced search results
+Security Headers,Header HTTP yang meningkatkan keamanan website dengan mencegah serangan umum seperti XSS dan clickjacking,Security,Web security
+HTTPS Redirect,Pengalihan otomatis dari HTTP ke HTTPS untuk memastikan koneksi aman,Security,Encrypted connection
+Content Security Policy (CSP),Header keamanan yang mencegah serangan XSS dengan membatasi sumber daya yang dapat dimuat,Security,XSS protection
+Cross-Origin Resource Sharing (CORS),Mekanisme yang memungkinkan website mengakses resource dari domain lain dengan aman,Security,Cross-origin security

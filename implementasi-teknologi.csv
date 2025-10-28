@@ -1,0 +1,25 @@
+Komponen,Implementasi,File Lokasi,Keterangan
+HTML Structure,DOCTYPE html5, Semua file .html,Struktur semantic dengan header, nav, main, section, footer
+CSS Framework,Tailwind CSS CDN, Semua file .html,Framework utility-first untuk styling cepat
+Custom CSS,CSS custom styles,css/styles.css,Styling tambahan dan animasi khusus
+JavaScript,Vanilla JavaScript,js/script.js,Interaktivitas navbar, counter animation, smooth scroll
+Icons,Font Awesome CDN, Semua file .html,Library ikon untuk UI elements
+Favicon,Favicon.ico + PNG variants,assets/favicon.ico,Multiple sizes untuk berbagai device
+Logo,PNG dengan background transparan,assets/Logo_Ruang_HD_-removebg-preview.png,Logo utama HEMODIACARE
+Images,Optimized JPG/PNG,assets/*.jpg, *.png,Gambar tim medis, fasilitas, dan galeri
+PWA Manifest,Web App Manifest,manifest.json,Konfigurasi PWA untuk installable app
+Structured Data,JSON-LD schema,home.html,MedicalClinic schema untuk Google
+Meta Tags,SEO meta tags, Semua file .html,Title, description, keywords, Open Graph
+Sitemap,XML sitemap,sitemap.xml,Daftar semua halaman untuk search engine
+Robots,Robots.txt,robots.txt,Instruksi untuk web crawler
+Security,.htaccess security headers,.htaccess,X-Content-Type-Options, X-Frame-Options
+Caching,.htaccess cache rules,.htaccess,Expires headers untuk static assets
+Compression,GZIP compression,.htaccess,Deflate compression untuk performance
+Railway Config,Static site config,public.json,Rewrites dan headers untuk Railway
+Vercel Config,Static site config,vercel.json,Backup config untuk Vercel
+Git Config,Version control,.gitignore,Git ignore rules untuk deployment
+Package Config,Project metadata,package.json,Project info dan scripts
+README,Documentation,README.md,Panduan project dan deployment
+DNS Config,Custom domain,CNAME,Custom domain configuration
+404 Page,Error handling,404.html,Custom 404 error page
+Redirect,Homepage redirect,index.html,Redirect dari root ke home.html
