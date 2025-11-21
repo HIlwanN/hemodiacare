@@ -89,11 +89,5 @@
         }
       ]
     }
-  ],
-  "routes": [
-    {
-      "src": "/sitemap-vercel\\.xml",
-      "dest": "/public/sitemap-vercel.xml"
-    }
   ]
 }
